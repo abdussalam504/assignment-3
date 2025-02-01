@@ -11,11 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
+
     <!-- daisy ui CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 
+    <!-- fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/8ba5961890.js" crossorigin="anonymous"></script>
+
     <!-- tailwind css CDN -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- custom css -->
     <style>
         .litle-font {
@@ -31,13 +35,73 @@
 
 <body class="litle-font">
     <header>
+        <nav class="bg-[#FFF9F4] border-b-[1px] border-[#111111] md:border-none">
+            <div class="w-11/12 mx-auto py-5 flex justify-between items-center sora-font">
+                <div class="flex items-center space-x-2">
+                    <img class="animate-spin text-5xl" src="/images/logo-header.png" alt="">
+                    <a class="hidden md:block text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+                </div>
 
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="hidden lg:block">
+                    <ul class="flex space-x-8">
+                        <li class="transform hover:text-yellow-500 hover:scale-105"><a>Find a pet</a></li>
+                        <li class="transform hover:text-yellow-500 hover:scale-105"><a>Breeds</a></li>
+                        <li class="transform hover:text-yellow-500 hover:scale-105"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block space-x-3">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <button
+                        class="py-[10px] px-[30px] rounded-md outline outline-1 outline-amber-400 cursor-pointer transition-all duration-300 transform hover:bg-amber-400 hover:text-white hover:scale-105">
+                        Login
+                    </button>
+                    <button
+                        class="bg-[#FFDC26] py-[10px] px-[30px] rounded-md cursor-pointer transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105">
+                        Register
+                    </button>
+
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <section class="w-11/12 mx-auto mt-8 lg:mt-24">
+            <div class="relative w-11/12 z-20 md:w-6/12">
+                <h1 class="animate-pulse my-3 text-3xl text-[#111111] lg:text-5xl">Pamper Your Pet, Because They Deserve the Bes</h1>
+                <p class="text-sm text-[rgb(17,17,17)] sora-font lg:mt-4 ">Discover a world of treats, toys, and essentials handpicked for your
+                    furry friends. Shop now and make tails wag with joy!</p>
+                <button
+                    class="bg-[#FFDC26] my-3 py-[10px] px-[30px] rounded-md cursor-pointer sora-font transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 md:my-6">Find
+                    a pet</button>
+                </div>
+                <img class="absolute w-11/12 -mt-28 lg:-mt-72" src="images/cat-big.png" alt=" big cat">
+                
+            
+        </section>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
