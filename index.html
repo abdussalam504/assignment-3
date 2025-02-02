@@ -31,9 +31,9 @@
         }
     </style>
 
-</head>
+</head> 
 
-<body class="litle-font">
+<body class="litle-font max-w-screen-xl mx-auto">
     <header>
         <nav class="bg-[#FFF9F4] border-b-[1px] border-[#111111] md:border-none">
             <div class="w-11/12 mx-auto py-5 flex justify-between items-center sora-font">
@@ -94,11 +94,11 @@
                     class="bg-[#FFDC26] my-3 py-[10px] px-[30px] rounded-md cursor-pointer sora-font transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105 md:my-6">Find
                     a pet</button>
             </div>
-            <img class="w-11/12 -mt-28 lg:-mt-72" src="images/cat-big.png" alt="big cat">
+            <img class="w-11/12 -mt-20 lg:-mt-72" src="images/cat-big.png" alt="big cat">
         </section>
     </header>
     <main> <!-- Categories section -->
-        <section class="w-11/12 mx-auto my-[140px]">
+        <section class="w-11/12 mx-auto py-12 lg:my-[100px]">
             <h2 class="text-2xl md:text-3xl">Browse By Categories</h2>
             <div class="mt-8 grid grid-cols-2 gap-[10px] lg:grid-cols-6 lg:gap-5">
                 <div class="bg-[#F9DF8A] rounded-xl flex items-center justify-center text-center p-8">
@@ -150,150 +150,136 @@
 
         <!-- Trending pet produckts -->
         <section class="bg-[#FFF9F4]">
-            <div class="w-11/12 mx-auto py-32">
+            <div class="w-11/12 mx-auto lg:py-24">
                 <h2 class="text-2xl md:text-3xl mb-12">Trending Pet Products</h2>
-                <div class="lg:flex gap-6">
-                    <div class="bg-[#F9DF8A] mb-[24px] rounded-[10px] p-[50px] pb-[182px] relative">
-                        <h2 class="text-2xl md:text-3xl">T- Shirt For Dogs</h2>
-                        <p class="text-[16px] text-[rgb(17,17,17)] sora-font py-5 w-[335px]">Discover a world of treats,
-                            toys, and essentials handpicked for </p>
-                        <button
-                            class=" bg-white my-3 py-[10px] px-[30px] rounded-md cursor-pointer sora-font transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105">Shop
-                            Now</button>
-                        <img class="absolute -mt-36 ml-36" src="/images/cute-pet-small.png" alt="small pet">
+                <div class="lg:flex space-x-6">
+                    <div class="bg-[#F9DF8A] rounded-[10px] pb-24 mb-10 md:w-full lg:w-[500px] md:pb-36 lg:mb-0 lg:pb-[130px] relative">
+                        <div class=" p-[30px] lg:p-[50px]">
+                            <h2 class="text-2xl md:text-3xl">T- Shirt For Dogs</h2>
+                            <p class="text-[rgb(17,17,17)] sora-font py-5">Discover a world oftreats,toys,and essentials handpicked for </p>
+                            <button
+                                class=" bg-white my-3 py-[10px] px-[30px] rounded-md cursor-pointer sora-font transition-all duration-300 transform hover:bg-yellow-500 hover:scale-105">Shop
+                                Now</button>
+                            <img class="absolute -mt-28 ml-28 sm:-mt-40 md:-mt-44 md:ml-80 lg:-mt-40 lg:ml-48 w-40 sm:w-56 md:w-64 lg:w-56" src="/images/cute-pet-small.png"
+                                alt="small pet">
+                        </div>
                     </div>
-                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-[14px]">
-                        
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/dog-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                    
+                    <div class="grid grid-cols-2 gap-2 xl:grid-cols-3 lg:gap-6">
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/dog-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/fish-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/fish-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/bird-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/bird-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/rabbit-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/rabbit-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/bird-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/bird-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/pet-couch.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/pet-couch.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/fish-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/fish-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/pet-couch.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/rabbit-cartoon.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[16px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
-                        <div class="hidden lg:flex p-4 bg-white rounded-[10px] border-[1px] border-[rgba(17,17,17,0.1)]">
-                            <div>
-                                <img class="bg-[rgb(255,249,244)] p-5 rounded-[10px]" src="/images/dog-cartoon.png"
-                                    alt="dog">
-                            </div>
-                            <div class="ml-4">
-                                <div>
-                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
-                                    <span class="text-[#111111] sora-font text-[16px]">4.5</span>
+                            </div>   
+                        </div>  
+                        <div class="hidden xl:block bg-white border-[1px] border-[rgba(17,17,17,0.1)] rounded-[10px] shadow-sm xl:max-w-[220px]">
+                            <div class="flex text-center items-center m-2 md:m-[16px]">
+                                <img class="bg-[#FFF9F4] w-10 p-[5px] rounded-[10px] md:p-[18px] md:w-20" src="/images/pet-couch.png"
+                                    alt=" cartoon">
+                                <div class=" ml-2 md:ml-[16px] text-center">
+                                    <i class="fa-solid fa-star text-[#FFC107] text-[10px] mr-2 md:text-[16px]"></i>
+                                    <span class="text-[10px] md:text-sm text-[#111111] sora-font">4.5</span>
+                                    <h4 class="text-[12px] md:text-[16px] text-[#111111] sora-font">Pet Bed</h4>
+                                    <p class="text-[10px] md:text-sm text-[#111111] sora-font">$39.99</p>
                                 </div>
-                                <h4 class="text-[#111111] sora-font text-[18px]">Pet Bed</h4>
-                                <p class="text-[#111111] sora-font text-sm">$39.99</p>
-                            </div>
-                        </div>
+                            </div>   
+                        </div>  
+                                                  
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
     <footer>
 
